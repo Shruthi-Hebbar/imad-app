@@ -7,6 +7,12 @@ element.innerHTML = "New value added through IMAD code console!";
 
 // Move the image to left.
 var img = document.getElementById("madi");
+function moveLeft () {
+    var marginRight = 0;
+    marginRight = marginRight + 1;
+    madi.style.marginRight = "px";
+}
+
 img.onclick = function () {
-    madi.style.marginRight = "150px";
+    var interval = setInterval(moveLeft, 10);
 };
