@@ -1,18 +1,15 @@
-console.log('Loaded!');
+// counter code
+var button = document.getElementById('counter');
+var counter = 0;
 
-//Change the value of text on the webapp.
-var element = document.getElementById('main-text');
-
-element.innerHTML = "New value added through IMAD code console!";
-
-// Move the image to left.
-var img = document.getElementById("madi");
-var marginRight = 0;
-function moveLeft () {
-    marginRight = marginRight + 1;
-    madi.style.marginRight = marginRight + "px";
+button.onclick = function(){
+    
+    // make request to te counter end points
+    
+    //get the count and store it in a var
+    
+    //render the count value
+    counter = counter + 1;
+    var span = document.getElementById('count');
+    span.innerHTML = counter.toString();
 }
-
-img.onclick = function () {
-    var interval = setInterval(moveLeft, 10);
-};
