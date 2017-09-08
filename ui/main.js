@@ -10,7 +10,7 @@ var img = document.getElementById("madi");
 var marginRight = 100;
 function moveLeft () {
     marginRight = marginRight - 1;
-    madi.style.marginRight = "px";
+    madi.style.marginRight = marginRight + "px";
 }
 
 img.onclick = function () {
