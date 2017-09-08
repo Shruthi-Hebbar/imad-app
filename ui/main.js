@@ -7,9 +7,9 @@ element.innerHTML = "New value added through IMAD code console!";
 
 // Move the image to left.
 var img = document.getElementById("madi");
-var marginRight = 0;
+var marginRight = 100;
 function moveLeft () {
-    marginRight = marginRight + 1;
+    marginRight = marginRight - 1;
     madi.style.marginRight = "px";
 }
 
