@@ -19,6 +19,6 @@ button.onclick = function(){
     };
     
     // Make a request
-    request.open ('GET', 'http://aeroshru8931.imad.hasura-app.io/counter', true);
+    request.open('GET', 'http://aeroshru8931.imad.hasura-app.io/counter', true);
     request.send(null);
 };
