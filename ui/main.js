@@ -2,7 +2,7 @@
 
 
 button.onclick = function(){
-    var button = document.getElementById('counter');
+    
     
     // create a request to the counter end points
     var request = new XMLHttpRequest();
@@ -19,6 +19,7 @@ button.onclick = function(){
         }
     };
     
+    var button = document.getElementById('counter');
     // Make a request
     request.open('GET', 'http://aeroshru8931.imad.hasura-app.io/counter', true);
     request.send(null);
