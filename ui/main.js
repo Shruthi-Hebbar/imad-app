@@ -21,6 +21,6 @@ button.onclick = function(){
     
     var button = document.getElementById('counter');
     // Make a request
-    request.open('GET', 'http://aeroshru8931.imad.hasura-app.io/counter', true);
+    request.open('POST', 'http://aeroshru8931.imad.hasura-app.io/create-user', true);
     request.send(null);
 };
